@@ -1,0 +1,138 @@
+body {
+    font-family: "Saira Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+
+    background: url('./images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  header {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  header h1 {
+    font-size: 3.5rem;
+    margin: 0;
+  }
+  
+  header h2 {
+    font-size: 2.5rem;
+    margin: 0;
+    color: #f9f9f9;
+  }
+
+  #autores {
+    margin-top: 40px;
+  }
+  
+  .autores {
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    flex-wrap: wrap;
+
+  }
+  
+  .autor {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    max-width: 400px;
+    text-align: center;
+    margin: 0 20px;
+  }
+
+  .autor, .extracto {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+  
+  .autor-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+  
+  .titulo {
+    margin-top: 0;
+    align-self: center;
+  }
+  
+  .autor p {
+    margin: 0;
+  }
+  
+  
+  .container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 15px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    font-size: 3em;
+  }
+  
+  .extractos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .caja {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+
+
+  .caja h3 {
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  .video {
+    text-align: center;
+  }
+
+  .acotacion {
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .dialogo {
+    text-align: center;
+    margin: 20px;
+  }
+
+  .reflexion {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+  }
+  
